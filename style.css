@@ -1,0 +1,10 @@
+.dropdown{
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: rgb(67, 61, 147);
+  padding: 10px 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}

@@ -5,16 +5,25 @@
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
         <title>my site?</title>
         <link rel="icon" href="./ex.1/nipo.png" type="image/x-icon"/>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>My Site</h1>
         <p>Welcome to my site!</p>
         <label for="pages"> Choose a page:</label>
-        <select name="pages" id="pages">
+        <select name="pages" id="pages" class="dropdown">
             <option value="ex.1">Go to ex.1</option>
             <option value="ex.2">Go to ex.2</option>
             <option value="ex.3">Go to ex.3</option>
-        <a href="./ex.1/index.html">Go to ex.1</a>
-        <a href="./ex.2/index.html">Go to ex.2</a>
-        <a href="./ex.3/index.html">Go to ex.3</a>
+
+            <script>
+                function navigateToPage() {
+                    var select = document.getElementById("pages"); // Get the dropdown element
+                    var selectedValue = select.value; // Get the selected value (URL)
+                
+                    if (selectedValue) {
+                        window.location.href = selectedValue; // Redirect to the selected page
+                    }
+                }
+                </script>
     </body>
