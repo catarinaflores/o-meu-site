@@ -15,6 +15,7 @@ hi {
   gap: 10px;
   max-width: fit-content;
   margin: auto;
+  padding: 5px;
 }
 
 .card {
