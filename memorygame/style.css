@@ -40,3 +40,7 @@ hi {
 .hidden {
   display: none;
 }
+
+.title {
+  text-align: center;
+}
