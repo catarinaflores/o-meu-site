@@ -15,6 +15,7 @@ hi {
   gap: 10px;
   max-width: fit-content;
   margin: auto;
+  padding: 1px;
 }
 
 .card {
@@ -38,4 +39,8 @@ hi {
 
 .hidden {
   display: none;
+}
+
+.title {
+  text-align: center;
 }
