@@ -18,3 +18,11 @@
 .main.light-on {
     background-color: white;
 }
+
+#light {
+    transition: filter 0.5s ease, box-shadow 0.5s ease;
+}
+
+#light.glow {
+    filter: drop-shadow(0 0 20px yellow);
+}
