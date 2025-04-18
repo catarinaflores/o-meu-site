@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.chela-one-regular {
+    font-family: "Chela One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
