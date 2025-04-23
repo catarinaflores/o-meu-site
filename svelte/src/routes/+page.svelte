@@ -10,11 +10,11 @@
     function toggleLight() {
         if (light === lightOff) {
             light = lightOn;
-            bgColor = 'bg-white';
+            bgColor = 'bg-white transition duration-500 ease-in-out';
             buttonTxt = 'Turn Off';
         } else {
             light = lightOff;
-            bgColor = 'bg-black';
+            bgColor = 'bg-black transition duration-500 ease-in-out';
             buttonTxt = 'Turn On';
         }
     }
